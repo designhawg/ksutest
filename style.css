@@ -1,9 +1,57 @@
-.red {background-color:red;}
-.blue {background-color:blue;}
-h2 {color: white;}
-.green { color: #4AFF33; }
-#pink {background-color: pink;}
-
-@media (min-width: 800px) {
-  * {background-color: yellow;}
+ul {
+  display: flex;
+  font-family: sans-serif;
+  list-style-type: none;
+  padding: 0 100px;
 }
+
+li {
+  color: white;
+  padding: 20px;
+}
+
+li:hover {
+  color: black;
+  background-color: white;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+
+
+/*.flex {
+  background: gray;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}*/
+
+.red {
+  background-color:red;
+}
+
+.blue {
+  background-color:blue;
+}
+
+.green {
+  background-color:green;
+}
+
+h2 {
+  color: white;
+  flex-grow: 1;
+  /*align-items: space-around;*/
+}
+
+
+
+
+
+
+
+
+
